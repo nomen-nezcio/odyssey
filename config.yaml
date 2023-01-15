@@ -1,0 +1,77 @@
+baseURL:
+languageCode: 'en-us'
+title: 'My Odyssey'
+theme: 'toha'
+
+outputs: 
+  home:
+    - HTML
+    - JSON
+    - RSS
+
+params: 
+
+  logo:
+    main: '/images/site/main-logo.png'
+    inverted: '/images/site/inverted-logo.png'
+    favicon: '/images/site/favicon.png'
+
+  newsletter:
+    enable: false
+
+  topNavbar:
+    maxVisibleSections: 5
+
+  features:
+
+    # Enable darkmode
+    darkMode:
+      enable: true
+      services: 
+        darkreader:
+          defaultColorScheme: system
+          fixes:
+            invert: ['img[src$=".svg"]']
+          theme:
+            brightness: 100
+            contrast: 100
+            sepia: 0
+    
+    blog:
+      enable: true
+
+      shareButtons:
+        twitter: true
+
+    portfolio:
+      enable: true
+
+    notes:
+      enable: true
+
+    toc:
+      enable: true
+
+    embedpdf:
+      enable: true
+
+    videoPlayer:
+      enable: true
+      services:
+        plyr:
+          fullscreen: true
+
+    syntaxHighlight:
+      enable: true
+      services:
+        hljs:
+          # see: https://highlightjs.readthedocs.io/en/latest/api.html#configure
+          noHighlightRe: /^no-highlight$/i
+
+  footer:
+
+    customMenus:
+      enable: true
+
+    credentials:
+      enable: false

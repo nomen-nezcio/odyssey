@@ -1,0 +1,25 @@
+# some information about you
+name: ""
+nickname: ""
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: ""
+#image: "images/author/default-avatar.JPG"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  stack-overflow:
+    icon: stack-overflow
+    url: "https://stackoverflow.com/users/21010373/nomen-nezcio"
+    text: "nomen-nezcio"
+  github: nomen-nezcio
+  email: "nomen.nezcio@gmail.com"
+#  linkedin: johndoe
+
+# some summary about what you do
+summary:
+  - I am a Cyber Operations Practioner
+  - I am a Cyber Operations Researcher
+  - I am a Systems Practioner
+  - I am a Cyber Operations Strategist
+  - I am a Cyber Operations Tactician
+  - I am a Software Developer
+

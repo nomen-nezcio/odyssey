@@ -1,0 +1,133 @@
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+#- name: Ph.D in Quantum Cryptography
+#  icon: fa-microscope
+#  timeframe: 2016-2020
+#  institution:
+#    name: ABC University of Technology
+#    url: "#"
+#  grade: #(optional)
+#    scale: CGPA
+#    achieved: 3.6
+#    outOf: 4
+#  publications: #(optional)
+#  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#    url: "#"
+#  - title: Fusce eu augue ut odio porttitor pulvinar.
+#    url: "#"
+#  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+#    url: "#"
+#
+- name: B.Sc. in Cyber Operations
+  icon: fa-graduation-cap
+  timeframe: 2024-2027
+  institution:
+    name: Dakota State Univeristy
+    url: "https://catalog.dsu.edu/preview_program.php?catoid=35&poid=2701&returnto=1625"
+
+- name: B.Sc. in Computer Science
+  icon: fa-graduation-cap
+  timeframe: 2024-2027
+  institution:
+    name: Dakota State Univeristy
+    url: "https://catalog.dsu.edu/preview_program.php?catoid=35&poid=2703&returnto=1625"
+#  grade: #(optional)
+#    scale: CGPA
+#    achieved: 3.5
+#    outOf: 4
+#  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+#    showGrades: true
+#    collapseAfter: 3
+#    courses:
+#    - name: Data Structures and Algorithm
+#      achieved: 3.75
+#      outOf: 4
+#    - name: Network Security
+#      achieved: 3.80
+#      outOf: 4
+#    - name: Operating System
+#      achieved: 3.5
+#      outOf: 4
+#    - name: Artificial Intelligent
+#      achieved: 3.75
+#      outOf: 4
+#  publications: #(optional)
+#  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#    url: "#"
+#  - title: Fusce eu augue ut odio porttitor pulvinar.
+#    url: "#"
+#  extracurricularActivities: #(optional)
+#  - In vitae facilisis est, eget porta sem.
+#  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+#  - Duis sed massa feugiat, ornare justo et, aliquam est.
+#  - Pellentesque ut fringilla magna.
+#
+- name: Computer Network Qualification Course (CNOQC)
+  icon: fa-graduation-cap
+  timeframe: 2021-2022
+  institution:
+    name: National Cryptologic University
+    url: "https://www.acenet.edu/National-Guide/Pages/Course.aspx?org=National%20Cryptologic%20University&cid=cd753f01-bad2-eb11-bacc-00224805d3a9"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 5
+    courses:
+    - name: Penetration Testing and Vulnerability Analysis
+      achieved: 3
+      outOf: 3
+    - name: Cyber Exploitation and Mitigation Methodologies
+      achieved: 3
+      outOf: 3
+    - name: Securing and Administering Systems in Windows Environments
+      achieved: 3
+      outOf: 3
+    - name: Securing and Administering Systems in UNIX Environments
+      achieved: 3
+      outOf: 3
+    - name: Network Infrastructure Security
+      achieved: 3
+      outOf: 3
+
+- name: Joint Cyber Analysis Course (JCAC)
+  icon: fa-school
+  timeframe: 2020-2021
+  institution:
+    name: National Cryptologic Univerisity
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Threats and Analysis
+      achieved: 3
+      outOf: 3
+    - name: Information Assurance
+      achieved: 3
+      outOf: 3
+    - name: Digital Forensics
+      achieved: 3
+      outOf: 3
+    - name: Advanced Switching Protocols
+      achieved: 3
+      outOf: 3
+    - name: Advanced Routing
+      achieved: 3
+      outOf: 3
+    - name: Computer Architecture
+      achieved: 3
+      outOf: 3
+  grade: #(optional)
+    scale: Percentage
+    achieved: 96
+    outOf: 100

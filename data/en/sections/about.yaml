@@ -1,0 +1,39 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Cyber Operations Practioner
+
+company:
+  name: DoD
+  url: https://www.defense.gov/
+
+resume: "files/resume"
+
+summary: 'This is the beginning of my journey within the world of Cyber Operations. This will be a place of documentation for the accumulation of knowledge gathered over the years. In the beginning, I will be establishing the fundamental concepts necessary to progress into more complex and intricate projects involving enterprise solutions and practices.'
+
+socialLinks: 
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://www.github.com/nomen-nezcio"
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/nomen_nezcio"
+- name: stack-overflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/21010373/nomen-nezcio"
+
+softSkills:
+- name: Work Ethic
+  percentage: 90
+  color: blue
+- name: Team Work
+  percentage: 85
+  color: yellow
+- name: Resiliency
+  percentage: 95
+  color: orange

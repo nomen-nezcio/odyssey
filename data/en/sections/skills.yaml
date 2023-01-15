@@ -1,0 +1,27 @@
+section: 
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/skills.html
+
+skills:
+- name: Linux
+  logo: '/images/sections/skills/linux.png'
+  summary: 'Intimate experience dealing with the configuration and functionality of Linux systems including Debian and RedHat based distrobutions.'
+- name: Networking
+  logo: '/images/sections/skills/networking_logo.png'
+  summary: 'Intimate experience dealing with the configuration and functionality of Linux systems including Debian and RedHat based distrobutions.'
+- name: VMware
+  logo: '/images/sections/skills/vmware-logo.png'
+  summary: 'Familiarity with configuring and initializing production environments for use within training environments.'
+- name: Windows
+  logo: '/images/sections/skills/windows_logo.png'
+  summary: 'Familiarity with the basic construct of the OS with a fundamental understanding of the underlying system.'
+- name: Information Security
+  logo: '/images/sections/skills/incident_response.png'
+  summary: 'Basic understanding of procedures to mitigate and isolate damage to compromised hosts and networks.'
+- name: Digital Forensics
+  logo: '/images/sections/skills/forensic_logo.png'
+  summary: 'Basic understanding of procedures to enumerate and analyze point of entry as well as methods of persistence.'
