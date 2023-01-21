@@ -20,7 +20,7 @@ params:
     enable: false
 
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 7
 
   features:
 
